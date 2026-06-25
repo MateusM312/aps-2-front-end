@@ -1,0 +1,52 @@
+
+
+body{
+    width: 700px;
+    margin: auto;
+    text-align: justify;
+}
+
+header{
+    width: 270px;
+    background-color: #e5c5b0;
+    text-align: center;
+    padding: 5px 15px 20px;
+    float: right;
+    border-radius: 0 0 0 25px;
+    margin: 0 0 10px 30px;
+}
+
+header a{
+    color: #bd4e15;
+    background-color: white;
+    padding: 2%;
+    border: 1px solid #bd4e15;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+section h1{
+    background-color: #bd4e15;
+    padding: 1%;
+    color: white;
+    width: 352px;
+}
+
+section{
+    width: 330px;
+    float: left;
+}
+
+main{
+    clear: both;
+}
+
+section:nth-child(1){
+    margin-right: 40px;
+}
+
+section img{
+    float: left;
+    padding-right: 8%;
+    padding-bottom: 2%;
+}

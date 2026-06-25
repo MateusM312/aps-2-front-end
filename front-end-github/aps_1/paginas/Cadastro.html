@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 700px;
+        }
+        #nome{
+            width: 500px;
+        }
+        #idade{
+            width: 100px;
+        }
+        form    {
+            padding: 12px;
+        }
+        #cidade{
+            width: 255px;
+        }
+        #endereco{
+            width: 900px;
+        }
+        #estado{
+            width: 18px;
+        }
+        #cep{
+            width: 100px;
+        }
+        #telres{
+            width: 90px;
+        }
+        #gmail{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>24/03/2026, 21:29</span>
+        <span>Cadastro de Cliente</span>
+    </header>
+    <h1>Informações Pessoais</h1>
+    <form action="">
+        <fieldset>
+            <legend>Cadastro do Cliente</legend>
+            <p>Nome: <input type="text" placeholder="Digite o nome do cliente" id="nome"></p>
+            <p>Idade: <input type="text" placeholder="Digite a idade" id="idade"></p>
+            <p>Endereço:</p>
+            <input type="text" placeholder="Digite o endereço" id="endereco">
+            <p>Cidade: <input type="text" name="" placeholder="Digite a cidade" id="cidade"></p>
+            <p>Estado: <input type="text" name="" placeholder="UF" id="estado"></p>
+            <p>CEP: <input type="text" name="" placeholder="XXXXX-XXX" id="cep"></p>
+            <p>Tel/Res: <input type="text" name="" placeholder="99 99999-9999" id="telres"></p>
+            <p>Tel/Cel: <input type="text" name="" placeholder="99 99999-9999" id="telres"></p>
+            <p>Email:</p>
+            <input type="text" name="" placeholder="Digite o endereço de email" id="gmail">
+        </fieldset>
+    </form>
+    <input type="button" value="Enviar">
+</body>
+</html>

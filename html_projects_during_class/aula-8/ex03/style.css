@@ -1,0 +1,35 @@
+h2{
+    background-color: #7faeb7;
+    padding: 1%;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004552;;
+}
+
+a:hover{
+    color: #ffa700;
+}
+
+a:focus{
+    color: #c9e0e5;
+}
+
+hr{
+    border: 3px solid #7faeb7;
+}
+
+.botoes img:hover{
+    border: #ffa700 solid thick;
+
+}
+
+a:nth-child(3) img:hover{
+    border-radius: 0 22px 22px 0;
+}
+
+a:nth-child(1) img:hover{
+    border-radius: 22px 0 0 22px;
+}
+

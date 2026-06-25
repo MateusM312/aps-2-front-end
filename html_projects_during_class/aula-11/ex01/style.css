@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    margin: 10% 25%;
+    width: 50%;
+}
+header{
+    color: purple;
+    border-bottom: 2px solid purple;
+    text-align: right;
+    margin-bottom: 2%;
+}
+header h1{
+    margin: 0;
+}
+img{
+    float: left;
+}
+
+fieldset{
+    border-color: pink;
+    border: 4px pink solid;
+    padding: 2%;
+}
+
+fieldset input{
+    background-color: pink;
+    border: none;
+}
+
+button{
+    background-color: pink;
+    border: none;
+    width: 150px;
+    height: 25px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+textarea{
+    vertical-align: middle;
+    border: none;
+    background-color: pink;
+    max-width: 487px;
+    min-width: 487px;
+    max-height: 108px;
+}
+
+.inpLabel{
+    margin-bottom: 3%;
+}
+
+.tamanho{
+    margin-left: 2%;
+    width: 85%;
+}
+
+.tamanho textarea{
+    height: 10%;
+    width: 497px;
+    height: 42px;
+    
+}
+
+.labelBr{
+    display: inline-block;
+    width: 51px;
+    text-align: center;    
+}

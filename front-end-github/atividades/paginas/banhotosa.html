@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 700px;
+        }
+        body{
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>24/03/2026, 21:27</span>
+        <span>Banho e Tosa</span>
+    </header>
+    <a href="../index.html">Home</a>
+    <h1>Agentamendo para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <form action="index.php" method="post">
+        <fieldset>
+            <legend>Identificação do dono do animal</legend>
+            <p>Nome: <input type="text" name="nome" placeholder="Digite o nome completo do dono do animal" id="nomeid" required></p>
+
+            <p>Endereço:</p>
+            <input type="text" name="endereco" id="enderecoid" placeholder="Digite o endereço" required>
+
+            <p>CEP: <input type="text" name="cep" placeholder="XXXXX-XXX" id="cepid" required></p>
+
+            <p>Email:</p>
+            <input type="email" name="email" id="emailid" placeholder="Digite o endereço de  email" required>
+            
+            <p>Tel/Cel: <input type="text" name="tel" placeholder="99 99999-9999" id="telid" required></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Animal</legend>
+            <p>Nome: <input type="text" name="nomepet" placeholder="Digite o nome do animal" id="nomepet-id" required></p>
+            <p>Porte de cão:
+                <input type="radio" name="porte" id="pequeno-id" required>
+                <label for="pequeno-id">Pequeno</label>
+                <input type="radio" name="porte" id="medio-id" required>
+                <label for="medio-id">Médio</label>
+                <input type="radio" name="porte" id="grande-id" required>
+                <label for="grande-id">Grande</label>
+            </p>
+            <p>Tipo de tosa: <select name="tosa" id="tosa-id" required>
+                <option value="nenhuma">Nenhuma</option>
+                <option value="pouco">Pouco</option>
+                <option value="muito">Muito</option>
+            </select></p>
+            <p>Observações: <textarea name="obs" id="obs-id" rows="4" cols="50" placeholder="Digite alguma informação do animal se necessário"></textarea></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+            <p>Indique os dias da semana de sua preferência:</p>
+            <p>
+                <input type="checkbox" value="terca" id="terca-id" required>
+                <label for="terca">Terça-Feira</label>
+
+                <input type="checkbox" value="quarta" id="quarta-id" required>
+                <label for="quarta">Quarta-Feira</label>
+
+                <input type="checkbox" value="quinta" id="quinta-id" required>
+                <label for="terca">Quinta-Feira</label>
+
+                <input type="checkbox" value="sexta" id="sexta-id" required>
+                <label for="terca">Sexta-Feira</label>
+                
+                <input type="checkbox" value="sabado" id="sabado-id" required>
+                <label for="terca">Sábado</label>
+            </p>
+            <p>Primeira opção de horário: <input type="text" name="ho1" id="ho1-id" placeholder="dd/mm/aaaa" required></p>
+            <p>Segunda opção de horário: <input type="text" name="ho2" id="ho2-id" placeholder="dd/mm/aaaa" required></p>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

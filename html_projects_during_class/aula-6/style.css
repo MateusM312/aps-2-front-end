@@ -1,0 +1,32 @@
+/* body { */
+    /* background-image: url("caio.png"); */
+    /* background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: rgb(5, 196, 2);
+    border: 1px solid white;
+} */
+
+/* p::first-line{ muda a primeira linha */
+    /* color: #FFFF;
+    font-style: italic;
+    font-weight: 700;
+}
+
+p{
+    color: green;
+}
+
+hr{
+    border: 2px dotted;
+}
+
+.css{
+    text-align: center;
+} */
+
+/* . seletor de classe */
+
+/* # seletor de id */

@@ -1,0 +1,31 @@
+body{
+    background-color: #FFF7D4;
+    background-image: url(cabecalhos_back.png);
+    background-repeat:repeat-y;
+    margin-left: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 45px;
+    color: #8F6800;
+}
+
+h2{
+    font-size: 35px;
+    color: #8F6800;
+    padding: 3px;
+}
+
+hr{
+    border: 2px dashed #D38D00;
+}
+
+p{
+    text-indent: 3%;
+}
+
+.importante{
+    color: white;   
+    background-color: #D38D00;
+    font-weight: 500;
+}

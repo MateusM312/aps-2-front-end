@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 70%;
+    margin-left: 15%;
+    height: 100vh;
+}
+
+aside {
+    float: left;
+    width: 15%;
+}
+
+article {
+    float: left;
+    width: 15%;
+    margin-left: 3%;
+}
+
+main img {
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+}
+
+main {
+    float: left;
+    width: 55%;
+    text-align: justify;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    clear: both; 
+    text-align: center;
+}
+
+article h2{
+    margin: 0;
+    font-weight: 900;
+}
+
+article hr{
+    color: greenyellow;
+    margin: 0;
+}
+
+.date{
+    text-align: right;
+    margin: 0;
+    color: greenyellow;
+}
+
+.more{
+    color: red;
+    text-align: right;
+    font-size: 14px;
+}
+
+header h1{
+    background-color: black;
+    padding: 1%;
+    color: white;
+    border-bottom: 8px greenyellow solid;
+}
+
+main h1{
+    font-weight: 800;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+.autor{
+    margin: 0;
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.quote{
+    width: 234px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+footer h2{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border-top: 12px solid greenyellow;
+}
+
+aside li{
+    font-weight: 700;
+    list-style: none;
+    border-top: 1px solid black;
+    padding: 8%;
+    text-align: left;
+}
+
+aside li:last-child{
+    border-bottom: 1px solid black;
+}
+
+aside{
+    margin-right: 2%;
+}
+
+aside ul{
+    padding: 0;
+}
